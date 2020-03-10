@@ -27,7 +27,7 @@ require_once("map_r_data.php");
 	<div id="marker"></div>
 </div>
 <script src="./map_r.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO7knMK9LZzEuiVKLMOPv4vyX5ei1bYIk&callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
 
 
 </body>
