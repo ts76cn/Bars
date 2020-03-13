@@ -2,7 +2,10 @@
 ・飲食店APIを用いたGoogle Mapsへのマーカー表示
 
 ## Description　説明
-・リクルートAPIを用いて、子供を連れていける仙台駅・国分町・一番町周辺のバー・ダイニングバーのおすすめ１０店をGoogle Maps上にマーカー表示しています。
+・リクルートAPI利用
+・子供を連れていける仙台駅・国分町・一番町周辺のバー・ダイニングバーのおすすめ１０店を抽出
+・Google Maps上にマーカー表示しています。
+・吹き出しには店舗名称とURLを表示しています。
 
 ## Demonstration
 <img width="998" alt="Bars" src="https://user-images.githubusercontent.com/55599388/76421992-dfb50880-63e7-11ea-92d3-0cc34ec36534.png"><br>
