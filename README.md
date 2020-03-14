@@ -15,4 +15,5 @@
 ・リクルートWEBサービス グルメサーチAPI
 
 ## Usage　使用法
+・map.phpが起動ファイルになります。
 ・$API_keyには、Google MapsのAPI keyを入力する必要があります。
