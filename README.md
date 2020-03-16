@@ -2,9 +2,9 @@
 ・飲食店APIを用いたGoogle Mapsへのマーカー表示
 
 ## Description　説明
-・リクルートAPI利用
-・子供を連れていける仙台駅・国分町・一番町周辺のバー・ダイニングバーのおすすめ１０店を抽出
-・Google Maps上にマーカー表示しています。
+・リクルートAPI利用<br>
+・子供を連れていける仙台駅・国分町・一番町周辺のバー・ダイニングバーのおすすめ１０店を抽出<br>
+・Google Maps上にマーカー表示しています。<br>
 ・吹き出しには店舗名称とURLを表示しています。
 
 ## Demonstration
@@ -15,5 +15,5 @@
 ・リクルートWEBサービス グルメサーチAPI
 
 ## Usage　使用法
-・map.phpが起動ファイルになります。
-・$API_keyには、Google MapsのAPI keyを入力する必要があります。
+・map.phpが起動ファイルになります。<br>
+・ini.php内の$API_keyには、Google MapsのAPI keyを入力する必要があります。
