@@ -16,6 +16,7 @@
 
 <script type="text/javascript">
 <?php
+require_once("ini.php");
 require_once("map_r_data.php");
 ?>
 </script>
@@ -27,7 +28,7 @@ require_once("map_r_data.php");
 	<div id="marker"></div>
 </div>
 <script src="./map_r.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=<?php $API_key ?>&callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $API_key; ?>&callback=initMap"></script>
 
 
 </body>
