@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>子供と一緒に行ける仙台周辺のバー10店</title>
+<!--ファビコンを適用-->
+<link rel="icon" href="./img/favicon.ico">
 <style type="text/css">
 #container {
 	width: 1000px;
