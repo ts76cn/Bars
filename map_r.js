@@ -11,7 +11,7 @@ function initMap() {
     // 地図の中心を指定
     center: mapLatLng, 
     // 地図のズームを指定
-    zoom: 13 
+    zoom: 15 
   });
 
   for (var i = 0; i < markerData.length; i++) {
@@ -28,29 +28,19 @@ function initMap() {
     // 吹き出しの追加
     infoWindow[i] = new google.maps.InfoWindow({ 
       // 吹き出しに表示する内容
-      content: '<div class="marker">' + markerData[i]['name'] + '<br>' + markerData[i]['urls'] +'</div>' 
+      content: '<div class="marker"><a href=' + markerData[i]['urls'] + '>' + markerData[i]['name'] + '</a></div>'
     });
-
 
     // マーカーにクリックイベントを追加
     markerEvent(i); 
 
-/*
-    // マーカーのオプション設定
-    marker[i].setOptions({
-      icon: {
-        // マーカーの画像を変更
-        url: markerData[i]['icon']
-      }
-    });
-*/
   }
 }
 
 //マーカーにクリックイベントを追加
 function markerEvent(i) {
-  // マーカーをクリックしたとき
-  marker[i].addListener('click', function() { 
+  // マーカー上にマウスが乗った時
+  marker[i].addListener('mouseover', function () { 
     // 吹き出しの表示
     infoWindow[i].open(map, marker[i]); 
   });
