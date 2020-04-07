@@ -31,13 +31,13 @@ function initMap() {
       content: '<div class="marker"><a href=' + markerData[i]['urls'] + '>' + markerData[i]['name'] + '</a></div>'
     });
 
-    // マーカーにクリックイベントを追加
+    // マーカー表示方法の実行
     markerEvent(i); 
 
   }
 }
 
-//マーカーにクリックイベントを追加
+//マーカー表示方法
 function markerEvent(i) {
   // マーカー上にマウスが乗った時
   marker[i].addListener('mouseover', function () { 
